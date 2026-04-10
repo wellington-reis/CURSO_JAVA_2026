@@ -23,11 +23,23 @@ public class Aula_01_a_12 {
 		 * 
 		 ==============Fim Aula============*/
 		
-		/*Aula 04 - Realizando primeiro Commit e Commit and Push*/
+		/*Aula 05 - Realizando primeiro Commit e Commit and Push*/
 		
-		System.out.println("Realizando meu primeiro commit");/*Realizar o commit*/
-		System.out.println("Realizando meu Primeiro Commit and Push");/*Realizar o commit and push*/
+		/*
+		 * 
+		System.out.println("Realizando meu primeiro commit");
+		System.out.println("Realizando meu Primeiro Commit and Push");
 		System.out.println("Agora vai dar certo o commitand Push");
+		
+		*/
+		
+		/*=============Fim Aula============*/
+		
+		/*Aula 06 - historico e revert para base*/
+		
+		
+		
+		
 	}
 	
 }
