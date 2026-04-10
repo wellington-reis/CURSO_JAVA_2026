@@ -27,5 +27,7 @@ public class Aula_01_a_12 {
 		
 		System.out.println("Realizando meu primeiro commit");/*Realizar o commit*/
 		System.out.println("Realizando meu Primeiro Commit and Push");/*Realizar o commit and push*/
+		System.out.println("Agora vai dar certo o commitand Push");
 	}
+	
 }
