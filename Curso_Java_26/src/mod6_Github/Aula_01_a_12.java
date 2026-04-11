@@ -2,6 +2,9 @@ package mod6_Github;
 
 public class Aula_01_a_12 {
 	
+
+	private String nome; /*Metodo exer.2 aula12*/
+	
 	public static void main(String[] args) {
 		
 		/*aula01-
@@ -37,11 +40,32 @@ public class Aula_01_a_12 {
 		
 		/*Aula 06 - historico e revert para base*/
 		
-	System.out.println("Vamos Reverter esse commit");
+	/*System.out.println("Vamos Reverter esse commit");*/
+	
+	/*=================Fim Aula===============*/
 		
-		
-		
+		/*Aula 12 - Trabalhando com Master - Branchs - Merch
+		 * Master - Projeto Principal
+		 * branchs - Copia Editável do projeto Principal ( onde são feitas as alteracoes )
+		 * Merch - É a Junção das Branchs com o projeto principal ( so deve ser realizado apos todos os teste do projeto)
+		 
+		 Exercicio:
+		 * 01-Vamos Criar nossa primeira Branch e commitar*/
+		 /* 02-Vamos criar um método "nome" com sets e gets, na nossa branch e commitar*/
+		 /* 03-vamos fazer um merch da nossa branch. */
+	
 		
 	}
+	
+	/*Gets-sets*/
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
 	
 }
