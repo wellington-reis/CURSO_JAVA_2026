@@ -26,6 +26,7 @@ public class Aula7_Tipos_Texto {
 		
 		
 		/*Verificação de Condição*/
+		
 		if (genero!='m' & genero !='f') {
 			
 			System.out.println("Sexo: Não Indentificado");
