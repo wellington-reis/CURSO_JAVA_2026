@@ -1,13 +1,13 @@
 package mod7_Tipos_Variaves;
 
-public class Aula_3 {
+public class Aula_3_Tipos {
 	
 	/*Tipos Primitivos = Usados em todas as linguagens
 	 
-	 *tipos Numéricos = Números inteiros, racionais, decimais, etc.
+	 *tipos Numéricos = Números .
 	 *tipos Strings = Textos .
 	 *tipos Booleanos = Logicos .
-	 *tipos Doubles =
+	 *tipos Doubles = números Decimais
 	 *tipos char =
 	
 	*/
