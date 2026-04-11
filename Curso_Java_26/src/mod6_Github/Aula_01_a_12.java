@@ -52,7 +52,7 @@ public class Aula_01_a_12 {
 		 Exercicio:
 		 * 01-Vamos Criar nossa primeira Branch e commitar*/
 		 /* 02-Vamos criar um método "nome" com sets e gets, na nossa branch e commitar*/
-		 /* 03-vamos fazer um merch da nossa branch. */
+		 /* 03-vamos fazer um merch da nossa branch e commitar */
 	
 		
 	}
