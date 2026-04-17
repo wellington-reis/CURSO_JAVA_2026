@@ -6,8 +6,26 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 		
 		/*Aula 01 - Operadores Logicos IF e Else */
 		
-	char genero = 'a';/*Adicionar a Letra Aqui*/
-	int idsexo = 0;
+		
+	/*Dadoas Pessoais*/
+	String NomeAluno = "Wellington Reis";/*Adicionar nome aluno*/
+	String Endereço = "Rua Itaipu,985";
+	String Cidade = "BH";
+	String Contato = "(31)994164940";
+	char genero = 'm';/*Adicionar a Letra Aqui (f) ou (m)*/
+	
+	System.out.println("Nome:"+NomeAluno);
+	
+	/*Notas*/
+	int nota1 = 90;
+	int nota2 = 90;
+	int nota3 = 70;
+	int nota4 = 70;
+	double media = (nota1+nota2+nota3+nota4)/4;
+	
+	System.out.println("Média: "+media +" Pontos");
+	
+
 		
 		/*Verificação de Condição em Char*/
 		
@@ -18,14 +36,13 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 			
 		}else if (genero == 'f') {
 				
-				idsexo = 1;
+				
 				 System.out.println("Sexo: Feminino");
 					
 			}else {
 				
-				idsexo = 2;
 				
-				 System.out.println("Sexo :Masculino ");
+				 System.out.println("Sexo: Masculino ");
 				 
 					
 		}
@@ -46,7 +63,56 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 		 * "SE"(?) Genero for igual a 'm' Recebe o texto ( Homen ) SENÃO (:) recebe o texto (LGBT).    */
 		
 		/*Imprimi a Variavel no console*/
-		System.out.println(resultadoGenero);
+		System.out.println("Gen ID: " +resultadoGenero);
+		
+/*================Fim Aula===========================*/
+		
+		
+		/*Aula03 - Operaçoes Aninhadas.
+		 * São Condições dentro de condições */
+		
+		/*condição 01*/
+		if (Cidade=="BH") {
+			
+			System.out.println("Campus BH");
+			 
+			/*Condição 02*/
+			if (genero != 'f' && genero != 'm') {
+				System.out.println("Dormitorios Selecionados");
+				 
+				   /*condição 03*/
+			}else if (genero=='m') {
+					
+					System.out.println("Dormitórios Masculinos");
+					
+				}else {
+					System.out.println("Dormitorios Femininos");		
+					}		
+			
+			/*condição 04*/
+			if (media >=50) {
+				
+				/*condição 05*/
+				if (media <=100 ) {
+					
+					/*condição 06*/
+					if (media <=70) {
+						System.out.println("Grupo Melhorar");
+						
+					}else {
+							System.out.println("Grupo CDF");
+						}
+				}
+			}else {
+					System.out.println("Não Atingiu a Media para acessar o campus");
+				}
+			
+		}else {
+			System.out.println("Campus não Indentificado:");
+		}
+		
+		
+		
 		
 	}
 
