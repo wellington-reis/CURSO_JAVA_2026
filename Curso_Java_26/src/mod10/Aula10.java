@@ -6,6 +6,7 @@ public class Aula10 {
 		
 		System.out.println("teste");
 		System.out.println("teste2");
+		System.out.println("teste3");
 		
 		
 	}
