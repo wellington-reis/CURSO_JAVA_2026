@@ -9,9 +9,9 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 		
 	/*Dadoas Pessoais*/
 	String NomeAluno = "Wellington Reis";/*Adicionar nome aluno*/
-	String Endereço = "Rua Itaipu,985";
+	/*String Endereço = "Rua Itaipu,985";*/
 	String Cidade = "BH";
-	String Contato = "(31)994164940";
+	/*String Contato = "(31)994164940";*/
 	char genero = 'm';/*Adicionar a Letra Aqui (f) ou (m)*/
 	
 	System.out.println("Nome:"+NomeAluno);
