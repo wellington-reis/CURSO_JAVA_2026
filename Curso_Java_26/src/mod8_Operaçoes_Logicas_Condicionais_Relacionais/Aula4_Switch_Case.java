@@ -53,6 +53,27 @@ public class Aula4_Switch_Case {
 			
 		break;
 	}
+/*=============FIM AULA===================*/
+	
+	/*AULA 06 - OPERARADORES RELACIONAIS
+	 SÃO OS OPERADOS USADOS PARA CONDIÇOES DE RELAÇÃO:
+	 
+	 * ==(iGUAL)
+	 * !=(DIFERENTE)
+	 * >=(MAIOR OU IGUAL)
+	 * <=(MENOR OU IGUAL)
+	 * >(MAIOR QUE)
+	 * <(MENOR QUE) 
+	 * 
+	*AULA.1 - OPERADORES LOGICOS
+	 *&- UMA DAS CONDIÇOES E VERDADEIRA(TRUE).
+	 *&&-AS DUAS CONDIÇOES E VERDADIRAS
+	 *||- UMA OU A OUTRA CONDIÇOES E VERDADEIRAS.
+	 *
+	 */
+	
+	
+
 		
 	}
 
