@@ -1,6 +1,6 @@
 package mod8_Operaçoes_Logicas_Condicionais_Relacionais;
 
-public class Aula01_02_OperaçoesLogicas_IF_Else {
+public class Aula01_02_03_OperaçoesLogicas {
 	
 	public static void main(String[] args) {
 		
@@ -68,8 +68,9 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 /*================Fim Aula===========================*/
 		
 		
-		/*Aula03 - Operaçoes Aninhadas.
-		 * São Condições dentro de condições */
+	/*Aula03 - Operaçoes Aninhadas.
+	* São Condições dentro de condições 
+	* exemplo: */
 		
 		/*condição 01*/
 		if (Cidade=="BH") {
@@ -109,7 +110,10 @@ public class Aula01_02_OperaçoesLogicas_IF_Else {
 			
 		}else {
 			System.out.println("Campus não Indentificado:");
-		}/*teste pull outro teste */
+		}
+		
+/*================fIM DA AULA============= */
+		
 				
 	}
 
