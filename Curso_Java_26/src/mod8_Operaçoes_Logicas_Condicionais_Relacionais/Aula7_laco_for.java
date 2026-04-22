@@ -15,6 +15,16 @@ public class Aula7_laco_for {
 			
 			System.out.println(i);
 			
+			/*usamos uma condição para se achar o numero 7 apos achar
+			 imprimimos e aplicamos um break para parar o codigo. */
+			
+			if (i== 7) {
+				
+				System.out.println("encontrei " +i);
+				System.out.println("estou parando");
+				break;
+			}
+			
 		}
 /*FOR(enquanto), varialvel i de valor = 10 ; for iqual ou maior que 0
  variavel i recebe -1 e imprimi i.
