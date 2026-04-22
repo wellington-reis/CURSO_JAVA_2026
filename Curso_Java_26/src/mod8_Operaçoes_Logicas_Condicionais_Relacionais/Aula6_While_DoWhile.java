@@ -34,6 +34,11 @@ public class Aula6_While_DoWhile {
 		
 		
 	} while (numero2 <=20);
+	
+/*============ fim aula==========*/
+	
+	/*Aula 7 estrutura de repetição for/*/
+
 		
 	}
 	
