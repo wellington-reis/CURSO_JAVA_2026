@@ -65,8 +65,8 @@ public class Aula7_8_9_Estrutura_repeticao_fOR {
 				continue;
 				/*
 				 Note que Diferentimente da condição acima, 
-				 a verificação continuou até terminar a estrutura de 
-				 repetição.
+				 a verificação continuou até a estrutura de 
+				 repetição terminar.
 				 * 
 				*/
 			}
