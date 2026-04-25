@@ -58,23 +58,26 @@ public class Aula11_Criando_Entrada_Dados {
 		JOptionPane.showMessageDialog(null, "Nome do Aluno : " + nomeAluno + "\n" + "Idade : " + idadeAluno + " anos\n"
 				+ "IMC : " + imc + "\n" + resultadoImc);
 
+		int ctlWhile;
+		do {
 			
-		
-		int opTreino = JOptionPane.showConfirmDialog(null, "Deseija conhecer Os Planos de Treinos para Você?");
-		
+			int opTreino = JOptionPane.showConfirmDialog(null, "Deseija conhecer Os Planos de Treinos para Você?");
+			 ctlWhile = opTreino;
+			 
 			if (opTreino == 0) {
 
 				JOptionPane.showMessageDialog(null, "Parabéns pela Decisão");
-
+				break;
+				
+				
 			} else {
 				JOptionPane.showMessageDialog(null, "Não Desista de Você");
-				
+
 			}
-
-
 			
+		} while (ctlWhile!=0);
 		
-		
+
 	}
 
 }
