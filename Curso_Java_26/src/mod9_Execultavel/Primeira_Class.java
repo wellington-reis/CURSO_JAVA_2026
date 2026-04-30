@@ -1,4 +1,7 @@
 package mod9_Execultavel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+
 /*importando a classe atributo*/
 import mod9_Classes_Atributos.Aluno;
 
@@ -11,17 +14,23 @@ public class Primeira_Class {
 		/**/
 		/*Criação de Objeto sem paramentros de contrutor*/
 		Aluno aluno1 = new Aluno();/*A Variavel Aluno 1 é uma referênncia para a classe aluno
-		*new Aluno - É uma instância ou seja criar um objeto
-		*/
-		aluno1.setNome("Wellington");
-		aluno1.setAltura(1.90);
-		aluno1.setPeso(90.0);
+		*new Aluno - É uma instância ou seja criar um objeto*/
+		
+		/*A-14: Fazendo entrada de dados pelo cliente.*/
+		String nome=JOptionPane.showInputDialog("Nome do Aluno: ");
+		String altura = JOptionPane.showInputDialog("Qual sua Altura: ");
+		String peso = JOptionPane.showInputDialog("Qual seu Peso: ");
+		
+		/*Chamando os métodos e setando com os dados enviados pelo cliente*/
+		aluno1.setNome(nome);
+		aluno1.setAltura (Double.parseDouble(altura));/*Double.parse- converte String em Double.*/
+		aluno1.setPeso(Double.parseDouble(peso));
 		
 		System.out.println("Nome do Aluno: "+ aluno1.getNome());
 		System.out.println("Altura: "+ aluno1.getAltura());
 		System.out.println("Peso: "+ aluno1.getPeso());
-		System.out.println("Indice de massa corporia: "+ aluno1.getCalculoImc());
-		System.out.println("laudo imc:" + aluno1.getResultadoImc());
+		System.out.println("Indice de Massa Corporia: "+ aluno1.getCalculoImc());
+		System.out.println("Laudo IMC: " + aluno1.getResultadoImc());
 		
 	
 		Aluno aluno2 = new Aluno();

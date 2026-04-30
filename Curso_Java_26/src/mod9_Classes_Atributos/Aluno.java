@@ -1,5 +1,7 @@
 package mod9_Classes_Atributos;
 
+import java.text.BreakIterator;
+
 public class Aluno {
 	/*01- criando Atributos comuns ao objeto*/
 	String nome;
@@ -72,11 +74,23 @@ public String getResultadoImc() {
 	
 	Double resultado = this.getCalculoImc();
 	
-	if (resultado>=30) {
+	if (resultado > 20) {
 		
-		return "Obeso";
+		if (resultado >=30) {
+			
+			return "Aluno Obeso";
+			
+		}else if (resultado >= 25) {
+			
+			return "Aluno Acima do Peso";
+			
+		}else {
+			
+			return "Aluno com peso normal.";
+		}
+		
 	}else {
-		return "tem jeito";
+		return "Aluno abaixo do peso";
 	}
 }
 }
