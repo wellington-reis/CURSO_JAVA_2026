@@ -26,9 +26,9 @@ public class Primeira_Class {
 		aluno1.setAltura (Double.parseDouble(altura));/*Double.parse- converte String em Double.*/
 		aluno1.setPeso(Double.parseDouble(peso));
 		
-		System.out.println("Nome do Aluno: "+ aluno1.getNome());
-		System.out.println("Altura: "+ aluno1.getAltura());
-		System.out.println("Peso: "+ aluno1.getPeso());
+		
+		
+		System.out.println(aluno1);
 		System.out.println("Indice de Massa Corporia: "+ aluno1.getCalculoImc());
 		System.out.println("Laudo IMC: " + aluno1.getResultadoImc());
 		

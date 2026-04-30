@@ -13,9 +13,17 @@ public class Aula_01_A_05_Teoria {
   * Setters - adiona ou recebe dados para os atributos do objeto.
   * getters - resgatar ou obter o valor do atributo do objeto.
   * 
-  Acompanhe na classe aluno como criar esses métodos.
+  OBS: Acompanhe na classe aluno como criar esses métodos.
   
- */
+  *cada Atributo recebe o seu set e get
+  
+   Obs: veja classe Primeira-classe
+  
+ =============fim aula============*/
+	/*Aula11- Metodo de calculos de massa Corporia(IMC)
+	 * 
+	 OBS: Acompanhe na classe aluno como criar esses métodos.
+	 */
 	
 	
 }
