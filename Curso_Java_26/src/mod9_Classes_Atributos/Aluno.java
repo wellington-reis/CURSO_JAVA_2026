@@ -10,7 +10,13 @@ public class Aluno {
 	Double altura;
 	Double peso;
 	Boolean limitacao;
+	String Objetivo;
+	String modalidade;
+	
 
+	
+	
+	
 	/* Construtor e cria os dados na memoria do java */
 	public Aluno() {
 		// TODO Auto-generated constructor stub
@@ -24,34 +30,47 @@ public class Aluno {
 
 	}
 
-	/* A-10: Setters e getters
-	 * Click com botao direto, source-> generate getters e setters. */
-	
-	
+	/*
+	 * A-10: Setters e getters Click com botao direto, source-> generate getters e
+	 * setters.
+	 */
+
 	public String getNome() {
 		return nome;
-		/*public(pode ser acessada de qualquer lugar no java.
-		 * getnome(referência)
-		 * String nome (tipo)
-		 * atributo(nome) Recebe o valor que
-		 * será atribuido pelo setnome ou direto por paramentro.
-		 * Retorna o valor atribuido. 
+		/*
+		 * public(pode ser acessada de qualquer lugar no java. getnome(referência)
+		 * String nome (tipo) atributo(nome) Recebe o valor que será atribuido pelo
+		 * setnome ou direto por paramentro. Retorna o valor atribuido.
 		 * 
 		 */
 	}
 
-		public void setNome(String nome) {
+	public void setNome(String nome) {
 		/* O this. indica para o java que o atributo e deste objeto. */
 		this.nome = nome;
-		
-		/*public(pode ser acessada de qualquer lugar no java.
-		 * void - recebe e nao retorna.
-		 * Setnome(referência)
-		 * String (tipo)
-		 * nome(Atributo) 
-		 * Recebe o valor que será atribuido a nome.
+
+		/*
+		 * public(pode ser acessada de qualquer lugar no java. void - recebe e nao
+		 * retorna. Setnome(referência) String (tipo) nome(Atributo) Recebe o valor que
+		 * será atribuido a nome.
 		 */
 
+	}
+
+	public void setModalidade(String modalidade) {
+		this.modalidade = modalidade;
+	}
+
+	public String getModalidade() {
+		return modalidade;
+	}
+
+	public void setObjetivo(String objetivo) {
+		Objetivo = objetivo;
+	}
+
+	public String getObjetivo() {
+		return Objetivo;
 	}
 
 	public String getDataNacimento() {
@@ -94,13 +113,14 @@ public class Aluno {
 		this.limitacao = limitacao;
 	}
 
-	/*A11- criação do metodo de calculo de imc 
-	 Vamos criar um metodo que vai nos retornar o calculo:
-	*/
-	
+	/*
+	 * A11- criação do metodo de calculo de imc Vamos criar um metodo que vai nos
+	 * retornar o calculo:
+	 */
+
 	public Double getCalculoImc() {
-		
-		/* peso divido por altura ao quadrado.*/
+
+		/* peso divido por altura ao quadrado. */
 		return peso / (altura * altura);
 	}
 
